@@ -10,6 +10,7 @@ function App() {
     <div >
       <Sidenav />
       <Main />
+      <Work />
     </div>
   )
 }
