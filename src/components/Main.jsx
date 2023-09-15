@@ -27,10 +27,10 @@ const Main = () => {
               repeat={Infinity} />
           </h3>
           <div className='flex justify-between pt-5 max-w-[100px] w-full'>
-            <a href="https://www.linkedin.com/in/devryn-zub-41164a194/">
+            <a href="https://www.linkedin.com/in/devryn-zub-41164a194/" aria-label='Go To LinkedIn'>
               <FaLinkedinIn className="cursor-pointer" size={30} />
             </a>
-            <a href="https://github.com/DevrynZub">
+            <a href="https://github.com/DevrynZub" aria-label='Go To Github'>
               <FaGithub className="cursor-pointer" size={30} />
             </a>
           </div>
