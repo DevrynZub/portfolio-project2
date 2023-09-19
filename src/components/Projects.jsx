@@ -10,7 +10,7 @@ const Projects = () => {
     <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <h1 className='text-4xl font-bold text-center'>Projects</h1>
       <p className='text-center py-8'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam minima molestias dicta facere nostrum! Enim aut, tempora sint reprehenderit fugit doloremque sapiente perspiciatis laudantium temporibus.
+        Completing CodeWorks set me up to complete projects and learn a vast amount of frameworks. Here are a few projects I worked on while at CodeWorks and after graduating.
       </p>
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem img={allSpiceImg} title='AllSpice App' work='Vue/C#/SQL' liveDemoUrl='' sourceCode='https://github.com/DevrynZub/ALLSPICE_Checkpoint' />
