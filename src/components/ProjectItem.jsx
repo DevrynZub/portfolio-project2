@@ -10,9 +10,9 @@ const ProjectItem = ({ img, title, work, sourceCode, liveDemoUrl }) => {
         </h3>
         <p className='pb-4 pt-2 text-black text-center'>{work}</p>
         <div className='flex flex-row'>
-          <a className='p-3' href={liveDemoUrl} >
+          {/* <a className='p-3' href={liveDemoUrl} >
             <p className='text-center p-3 rounded-lg bg-black text-red-200 font-bold cursor-pointer text-sm'>Live Demo</p>
-          </a>
+          </a> */}
           <a className='p-3' href={sourceCode} target='_blank' rel="noreferrer">
             <p className='text-center p-3 rounded-lg bg-black text-red-200 font-bold cursor-pointer text-sm'>Code</p>
           </a>

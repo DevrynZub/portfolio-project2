@@ -4,6 +4,9 @@ import ProjectItem from './ProjectItem.jsx';
 import allSpiceImg from "../assets/AllSpiceProject.jpg";
 // @ts-ignore
 import dndCapstoneImg from '../assets/DnDCapstone.jpg';
+// @ts-ignore
+import towerProjectImg from '../assets/towerProject.jpg';
+
 
 const Projects = () => {
   return (
@@ -15,6 +18,7 @@ const Projects = () => {
       <div className='grid sm:grid-cols-2 gap-12'>
         <ProjectItem img={allSpiceImg} title='AllSpice App' work='Vue/C#/SQL' liveDemoUrl='' sourceCode='https://github.com/DevrynZub/ALLSPICE_Checkpoint' />
         <ProjectItem img={dndCapstoneImg} title='DnDCapstone App' work='Vue/Node.js' liveDemoUrl='' sourceCode='https://github.com/DevrynZub/devs_and_dragons-Developer' />
+        <ProjectItem img={towerProjectImg} title='Tower Event App' work='Vue/Node.js' liveDemoUrl='' sourceCode='https://github.com/DevrynZub/TowerProject' />
         {/* <ProjectItem img={allSpiceImg} title='AllSpice App' work='Vue/C#/SQL' liveDemoUrl='' sourceCode='' /> */}
         {/* <ProjectItem img={dndCapstoneImg} title='DnDCapstone App' work='Vue/C#/SQL' liveDemoUrl='' sourceCode='' /> */}
       </div>
