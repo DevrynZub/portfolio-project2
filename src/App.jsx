@@ -5,6 +5,7 @@ import Main from './components/Main.jsx'
 import Work from './components/Work.jsx'
 import Projects from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
+import Skills from './components/Skills.jsx'
 
 const App = () => {
   useEffect(() => {
@@ -16,6 +17,7 @@ const App = () => {
       <Sidenav />
       <Main />
       <Work />
+      <Skills />
       <Projects />
       <Contact />
     </div>
