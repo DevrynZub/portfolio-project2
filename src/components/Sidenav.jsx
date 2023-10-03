@@ -1,6 +1,6 @@
 import React from 'react'
 import { GrProjects } from 'react-icons/gr'
-// import { BsPerson } from 'react-icons/bs'
+import { BsPerson } from 'react-icons/bs'
 import { AiOutlineMenu, AiOutlineHome, AiOutlineMail, AiOutlineBook } from 'react-icons/ai'
 
 const Sidenav = () => {
@@ -23,6 +23,10 @@ const Sidenav = () => {
               <AiOutlineHome size={20} />
               <span className='pl-4'>Home</span>
             </a>
+            <a onClick={handleNav} href="/#skills" aria-label="Go to Skills" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
+              <BsPerson size={20} />
+              <span className='pl-4'>Skills</span>
+            </a>
             <a onClick={handleNav} href="/#work" aria-label="Go to Work" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <GrProjects size={20} />
               <span className='pl-4'>Work</span>
@@ -31,10 +35,6 @@ const Sidenav = () => {
               <AiOutlineBook size={20} />
               <span className='pl-4'>Projects</span>
             </a>
-            {/* <a onClick={handleNav} href="/#main" aria-label="Go to Resume" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
-              <BsPerson size={20} />
-              <span className='pl-4'>Resume</span>
-            </a> */}
             <a onClick={handleNav} href="/#contact" aria-label="Go to Contact Form" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-grey-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200'>
               <AiOutlineMail size={20} />
               <span className='pl-4'>Contact</span>
@@ -49,15 +49,15 @@ const Sidenav = () => {
           <a href="#main" className='rounded-full shadow-lg bg-grey-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineHome size={20} />
           </a>
+          <a href="#skills" className='rounded-full shadow-lg bg-grey-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+            <BsPerson size={20} />
+          </a>
           <a href="#work" className='rounded-full shadow-lg bg-grey-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <GrProjects size={20} />
           </a>
           <a href="#projects" className='rounded-full shadow-lg bg-grey-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineBook size={20} />
           </a>
-          {/* <a href="#main" className='rounded-full shadow-lg bg-grey-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-            <BsPerson size={20} />
-          </a> */}
           <a href="#contact" className='rounded-full shadow-lg bg-grey-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
             <AiOutlineMail size={20} />
           </a>

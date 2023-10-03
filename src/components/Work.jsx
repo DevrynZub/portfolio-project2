@@ -32,17 +32,19 @@ const data = [
 ]
 const Work = () => {
   return (
-    <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
-      <h1 className='text-4xl font-bold text-center mb-6 text-red-500'>Work</h1>
-      {data.map((item, idx) => (
-        <WorkItem
-          key={idx}
-          // @ts-ignore
-          year={item.year}
-          company={item.company}
-          title={item.title}
-          details={item.details} />
-      ))}
+    <div className='bg-gradient-to-t from-indigo-500 via-purple-500 to-pink-500'>
+      <div id='work' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+        <h1 className='text-4xl font-bold text-center mb-6 text-black '>Work</h1>
+        {data.map((item, idx) => (
+          <WorkItem
+            key={idx}
+            // @ts-ignore
+            year={item.year}
+            company={item.company}
+            title={item.title}
+            details={item.details} />
+        ))}
+      </div>
     </div>
   )
 }

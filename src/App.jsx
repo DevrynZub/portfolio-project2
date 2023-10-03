@@ -16,8 +16,8 @@ const App = () => {
     <div >
       <Sidenav />
       <Main />
-      <Work />
       <Skills />
+      <Work />
       <Projects />
       <Contact />
     </div>
